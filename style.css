@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0 none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url('./img/login.jpg.png') center / cover no-repeat;
+}
+
+.form {
+  width: 300px;
+}
+
+.form__title {
+  text-align: center;
+  color: rgb(57, 54, 54);
+  font: 700 3rem "Glory", sans-serif;
+
+  margin-block: 0 12px;
+}
+
+.form__input {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 0 none;
+  padding: 0 12px;
+  border-radius: 7px;
+  font: 400 .9375rem "Glory", sans-serif;
+}
+
+.form__input + .form__input {
+  margin: 10px 0;
+}
+
+.form__input.form__input--submit {
+  cursor: pointer;
+  color: rgb(42, 41, 41);
+  background-color: rgb(11, 126, 130);
+
+  color: #fff;
+  font: 600 1rem "Glory", sans-serif;
+}
